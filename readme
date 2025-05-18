@@ -1,0 +1,14 @@
+The main procedure is on the GenUrban.ipynb file, Utility functions are in the ULT.py file, implemented by GenUrban.ipynb. Old_Version... file is the one with the individual setup but unfinshed. 
+To go through the procedure just run through all steps in GenUrban.ipynb, it include all the procedures, results and visulization. All other code file are either used for data cleaning or testing.
+
+Required Packages:
+transformers
+torch
+autogen
+matplotlib
+pandas
+geopandas
+numpy
+sklearn
+shapely
+and all the dependencies of the packages above.
