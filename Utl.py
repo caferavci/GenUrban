@@ -200,7 +200,7 @@ import requests
 import pandas as pd
 from functools import reduce
 
-API_KEY = "0291ed453c49b88aafdb6d6d12bac47801f0e6f5"
+API_KEY = ""
 MAPPING_CSV = "census_mapping.csv"
 
 def _get_section(tag: str) -> str:
