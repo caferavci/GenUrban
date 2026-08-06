@@ -199,8 +199,12 @@ def aggregate_buildings():
 import requests
 import pandas as pd
 from functools import reduce
+from dotenv import load_dotenv
+load_dotenv()
+import os
 
-API_KEY = ""
+
+API_KEY = os.getenv("CENSUS_API_KEY", "")
 MAPPING_CSV = "census_mapping.csv"
 
 def _get_section(tag: str) -> str:
