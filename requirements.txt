@@ -1,0 +1,14 @@
+# Legacy ConversableAgent/UserProxyAgent interface; do not install the newer 0.4+ API.
+autogen-agentchat>=0.2.36,<0.3
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.4,<1.8
+geopandas>=1.0,<2
+shapely>=2.0,<3
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+overturemaps>=0.12,<1
+jupyterlab>=4,<5
+ipykernel>=6,<8

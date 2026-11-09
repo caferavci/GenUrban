@@ -1,2 +1,34 @@
+# Private configuration and credentials.
 .env
-__pycache__
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Private inputs, generated results, and provider caches.
+private_workspace/
+data/
+results/
+Outputs/
+ACS/
+Overture/
+overture/
+.cache/
+*.csv
+*.parquet
+*.geojson
+*.xlsx
+*.log
+*.jsonl
+
+# Python and notebook artifacts.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.executed.ipynb
+.DS_Store
+Thumbs.db
